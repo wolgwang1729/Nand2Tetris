@@ -10,5 +10,5 @@ This folder contains programs written for Vulcan-16, including games.
   - `Main.jack`: Main game logic.
   - `Random.jack`: Random number generator.
 #### Screenshots
-![Game Start](https://i.sstatic.net/2ffR5wgM.png)
-![Game Play](https://i.sstatic.net/4h7zPyOL.png)
+![Game Start](../assets/game-start.png)
+![Game Play](../assets/game-play.png)

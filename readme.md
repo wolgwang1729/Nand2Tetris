@@ -19,18 +19,18 @@ In short, Vulcan-16 is my way of answering the question: "Can I take what I’ve
 - The 16-bit computer, I built, is based on Harvard Architecture (which is a variant of Von Neumann Architecture). 
 
 ## **Architecture of Computer:**
-![Vulcan-16 Computer Architecture](https://i.sstatic.net/guKsKZIz.png)
+![Vulcan-16 Computer Architecture](assets/computer-architecture.png)
 - The computer consists of:
   - `32K x 16` ROM, in which any program can be loaded.
   - `24577 x 16` memory, composed of `16K x 16` RAM, `8K x 16` for the screen memory map, and `1 x 16` for keyboard input.
   - The CPU contains a `1 x 16` data register, a `1 x 16` address register, and an ALU capable of performing 18 specified operations.
 ## **Architecture of CPU:**
-![CPU Architecture](https://i.sstatic.net/emWTfTvI.png)
+![CPU Architecture](assets/cpu-architecture.png)
 ## **Architecture of Memory:**
-![Memory Architecture](https://i.sstatic.net/51MRItuH.png)
+![Memory Architecture](assets/memory-architecture.png)
 - Detailed specification can be found in the `readme.md` of sub folders.
 ## **Softwares:**
-![Softwares](https://i.sstatic.net/CbKSHYDr.png)
+![Softwares](assets/software-overview.png)
 
 
 # Project Structure
@@ -76,9 +76,9 @@ I have created a web-based IDE [Vulcan-16 IDE](https://vulcan-16.vercel.app/) wh
 
 ## Images
 
-![Compiler](https://i.sstatic.net/AJTluoU8.png)
+![Compiler](assets/ide-compiler.png)
 
-![Hardware Simulator](https://i.sstatic.net/LeLh8Ddr.png)
+![Hardware Simulator](assets/ide-hardware-simulator.png)
 
 # Usage Instructions
 ## How to Run the Hardware Chips(.hdl)

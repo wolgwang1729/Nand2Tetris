@@ -17,8 +17,8 @@ In this game, the computer randomly selects a number within a specified range (0
 4. The game will provide feedback on whether your guess is correct or incorrect.
 
 ## Screenshots
-![Game Start](https://i.sstatic.net/2ffR5wgM.png)
-![Game Play](https://i.sstatic.net/4h7zPyOL.png)
+![Game Start](../../../assets/game-start.png)
+![Game Play](../../../assets/game-play.png)
 
 ## Acknowledgments
 - The Nand2Tetris course by Noam Nisan and Shimon Schocken.

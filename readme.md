@@ -74,6 +74,8 @@ I have created a web-based IDE [Vulcan-16 IDE](https://vulcan-16.vercel.app/) wh
 - Allows users to change RAM values.
 - Displays various registers such as D, A, and PC in a proper format and points.
 
+> **A note to anyone who loads `GuessANumber.hack` and sees an empty screen:** for quite a few months I was convinced my emulator had a bug, because Guess-a-Number simply refused to run on my website — it would just sit there with a blank screen, while the same program worked perfectly when I uploaded the folder to the Nand2Tetris web IDE's compiler. It turns out nothing was broken at all. A compiled `.hack` file contains the *entire Jack OS* (Screen, Output, Math, Memory...) compiled down to machine code and executed cycle-by-cycle by the CPU emulator, so even printing the title of the game takes hundreds of millions of clock cycles. At emulator speed that means several minutes of black screen before the first text appears. The Nand2Tetris web IDE feels instant only because when you compile-and-run a folder there, its OS routines execute natively in JavaScript instead of being emulated instruction-by-instruction. So if your program shows an empty screen: don't panic, and don't distrust your emulator — just crank the speed up, let it run for a few minutes, and the text will eventually show up.
+
 ## Images
 
 ![Compiler](assets/ide-compiler.png)
